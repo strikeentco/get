@@ -129,6 +129,8 @@ describe('get', () => {
     const obj = { a: 'b', };
     should(get(obj, 'a.b')).be.eql(undefined);
     should(get(obj, ['a', 'b'])).be.eql(undefined);
+    should(get({ a: 5 }, ['a', 'b'])).be.eql(undefined);
+    should(get({ a: null }, ['a', 'b'])).be.eql(undefined);
   });
 
   it('should return undefined for missing values under array', () => {

@@ -3,6 +3,9 @@
 const isObject = val => Object.prototype.toString.call(val) === '[object Object]';
 const get = (obj, parts, length) => {
   for (let i = 0; i < length; i++) {
+    if (obj === null) {
+      return;
+    }
     const v = obj[parts[i]];
     if (v === undefined) {
       return;

@@ -1,8 +1,8 @@
 get [![License](https://img.shields.io/npm/l/@strikeentco/get.svg)](https://github.com/strikeentco/get/blob/master/LICENSE)  [![npm](https://img.shields.io/npm/v/@strikeentco/get.svg)](https://www.npmjs.com/package/@strikeentco/get)
 ==========
-[![Build Status](https://travis-ci.org/strikeentco/get.svg)](https://travis-ci.org/strikeentco/get)  [![node](https://img.shields.io/node/v/@strikeentco/get.svg)](https://www.npmjs.com/package/@strikeentco/get) [![Test Coverage](https://api.codeclimate.com/v1/badges/83783b3523a8819e5d34/test_coverage)](https://codeclimate.com/github/strikeentco/get/test_coverage) [![bitHound Score](https://www.bithound.io/github/strikeentco/get/badges/score.svg)](https://www.bithound.io/github/strikeentco/get)
+[![Build Status](https://travis-ci.org/strikeentco/get.svg)](https://travis-ci.org/strikeentco/get)  [![node](https://img.shields.io/node/v/@strikeentco/get.svg)](https://www.npmjs.com/package/@strikeentco/get) [![Test Coverage](https://api.codeclimate.com/v1/badges/83783b3523a8819e5d34/test_coverage)](https://codeclimate.com/github/strikeentco/get/test_coverage)
 
-One of the smallest (*20 sloc*) and most effective implementations of getting a nested value from an object.
+One of the smallest (*23 sloc*) and most effective implementations of getting a nested value from an object.
 
 # Usage
 
